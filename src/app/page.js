@@ -7,10 +7,14 @@ export default function Home() {
       {/* Background layer */}
       <div>{/* Optional: Add an overlay for color and depth */}</div>
       <main>
-        {" "}
-        {/*className="relative z-10 flex h-screen items-center justify-center text-center text-white"*/}
-        {/* sub tags className="text-4xl font-bold" */}
         <NavBar />
+        <body>
+          {/*<Image
+            src="https://www.roads.org.uk/sites/default/files/motorway/m8/sign.svg"
+            alt="M8 motorway sign showing M8 and the symbol "
+          />  commented out as could not get image to work alt all */}
+          <p>Motorway Blog for the M8</p>
+        </body>
       </main>
 
       <footer></footer>

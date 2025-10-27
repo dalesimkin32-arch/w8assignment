@@ -13,13 +13,10 @@ export default function NavBar() {
     <nav className="flex justify-between items-center bg-blue-700 border-4 border-white rounded-xl p-8">
       <div className="flex items-center gap-3">
         <div>
-          <Image
-            scr="./public/images/motorway-symbol-uk.png"
-            alt="UK motorway symbol"
-            width="50"
-            height="50"
-            className="invert"
-          />
+          {/* <Image
+            scr="https://www.roads.org.uk/sites/default/files/motorway/m8/sign.svg"
+            alt="M8 motorway sign with motorway symbol"
+          /> commented out as could not get image to work alt all */}
         </div>
         <h1 className="text-2xl font-bold text-white">M8 Blogs</h1>
       </div>

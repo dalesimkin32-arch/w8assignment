@@ -4,9 +4,9 @@ export default function AddComment({ id }) {
   // import pg and all the settting up ect.
   async function handleSubmit(formData) {
     "use server";
-    // do our database stuff in here on submti
+    // do our database stuff in here on submit
 
-    // the formData is passsed automatically the the handlesubmit on submission
+    // the formData is passed automatically the the handlesubmit on submission
     // INSERT INTO COMMENTS WHERE POST = 1 (just an example)
     // maybe revalidate?
   }
@@ -21,16 +21,19 @@ export default function AddComment({ id }) {
           name="username"
           placeholder="username"
           required
-          className="bg-green-400 text-white text-2xl font-bold"
+          className="bg-green-400 text-white text-2xl font-bold border-gray-300 shadow-sm focus:border-white focus:ring focus:ring-white focus:ring-opacity-50"
         />
-        <input
-          type="text box"
+        <textarea
           name="comment"
           placeholder="Comment Here..."
+          rows="4"
           required
-          className="bg-green-400 text-white text-2xl font-bold"
+          className="bg-green-400 text-white text-2xl font-bold border-gray-300 shadow-sm focus:border-white focus:ring focus:ring-white focus:ring-opacity-50"
         />
-        <button type="submit" className="m-4">
+        <button
+          type="submit"
+          className="w-full px-4 py-2 text-sm font-medium text-green-700 bg-white rounded-md shadow-sm hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white"
+        >
           Submit
         </button>
       </form>
