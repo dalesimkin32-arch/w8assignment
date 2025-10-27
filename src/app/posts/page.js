@@ -38,11 +38,17 @@ export default async function Posts({ searchParams }) {
   }
 
   return (
-    <div className="bg-gray-950">
+    <div className="bg-gray-800 opacity-80">
       <NavBar />
-      <h2 className="">Current Posts: 1 for the Road</h2>
-      <p>Click on a post to see more details and all posted comments</p>
-      <p>Click on title to toggle sort by title ascending / descending</p>
+      <div className="bg-blue-800 border-4 border-white rounded-xl p-4">
+        <h2 className="text-white text-3xl font-bold m-4">
+          Current Posts and 1 for the Road
+        </h2>
+        <p className="text-white text-3xl font-bold m-4">
+          Click on a post to see more details and all posted comments
+        </p>
+      </div>
+      {/* <p>Click on title to toggle sort by title ascending / descending</p>  may not achieve*/}
       <div className="container mx-auto p-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* // map through my posts. Each post will have a link to the route for that post to read more of it. */}

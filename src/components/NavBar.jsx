@@ -12,11 +12,12 @@ export default function NavBar() {
   return (
     <nav className="flex justify-between items-center bg-blue-700 border-4 border-white rounded-xl p-8">
       <div className="flex items-center gap-3">
-        {/* className="bg-blue-700 border-4 rounded-full" */}
         <div>
           <Image
             scr="./public/images/motorway-symbol-uk.png"
             alt="UK motorway symbol"
+            width="50"
+            height="50"
             className="invert"
           />
         </div>

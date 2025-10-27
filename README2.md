@@ -10,3 +10,10 @@ Friday:
 got Posts page displaying OK (except for images insert into Nav bar and background tiling)
 
 basic sorts sorted on Posts page.
+
+Got a lot more sorted motorway symbol in Nav bar not displaying at all not sure why
+
+comments page seems to be OK add comment form needs CSS / tailwind work
+Delete comment butt needs work
+
+committing again for Sun late eve.
